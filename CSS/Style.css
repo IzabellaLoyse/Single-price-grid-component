@@ -1,0 +1,146 @@
+
+body{
+  background-color: antiquewhite;
+}
+
+.container{
+  padding: 50px;
+  margin: 100px;
+  display: grid;
+  grid-template-columns: 1fr 1fr  1fr ;
+  grid-template-rows: 40fr 70fr 30fr;
+  grid-template-areas: "primary primary"
+                                     "second third"
+                                     "footer footer"
+}
+
+
+
+/* PRIMARY BOX */
+.container .primary-box{
+ border-radius: 5px 2px 2px 2px;
+  padding: 40px;
+  align-items: stretch;
+  
+  background-color:var(--white);
+  grid-area: primary;
+ 
+}
+
+.container .primary-box h2{
+  padding: 10px;
+  color: var(--cyan);
+  font-weight: 700;
+  
+}
+
+.container .primary-box h3{
+  padding: 10px;
+  color:  var(--bright-yellow);
+  font-weight: 700;
+}
+
+.container .primary-box p{
+  padding: 10px;
+  color: var(--grayish-blue);
+  font-weight: 300;
+}
+
+/* SECOND BOX */
+.container .second-box{
+  border-radius: 5px 2px 2px 2px;
+  padding: 40px;
+  align-items: stretch;
+  height: 270px;
+  background-color: var(--cyan);
+  grid-area: second;
+}
+
+.container .second-box h2{
+  padding: 11px;
+  color: var(--light-gray);
+  font-weight: 700;
+}
+#pan{
+  color: var(--light-gray);
+  padding-top: 10px;
+}
+ #single{
+   font-size: 35px;
+   padding: 10px;
+  color: var(--light-gray);
+
+}
+.container .second-box p{
+  padding: 10px;
+  color: var(--light-gray);
+}
+
+.container .second-box a{
+  padding: 10px;
+  border-radius: 5px;
+  align-items: center;
+width: 100%;
+  max-width: 209px;
+  height: 35px;
+  margin: 15px;
+  margin-top: 20px;
+  background-color: var(--bright-yellow);
+  display: flex;
+}
+
+  #bottom{
+ line-height: 38px;
+text-align: center;
+margin:60px;
+  }
+#sign{
+  flex: 1;
+  color: var(--light-gray);
+  text-align: center;
+  font-weight: 700;
+}
+
+
+
+/* THIRD BOX */
+.container .third-box{
+  border-radius: 5px 2px 2px 2px;
+  padding: 40px;
+  align-items: stretch;
+  height: 270px;
+  background-color: rgb(58, 202, 200);
+  grid-area: third;
+}
+
+.container .third-box h2{
+  padding: 11px;
+  color: var(--light-gray);
+}
+
+.container .third-box p{
+  padding: 10px;
+  color: var(--light-gray);
+  font-weight: 300;
+  text-align: left;
+}
+
+
+/* FOOTER */
+footer{
+  padding: 40px;
+  align-self: stretch;
+  background-color:var(--white);
+  grid-area: footer;
+  height: 50px;
+  
+}
+
+.attribution {
+  font-weight: 300;
+  font-size: 16px;
+  text-align: center; }
+   
+.attribution a { 
+  color: hsl(228, 45%, 44%);
+ }
