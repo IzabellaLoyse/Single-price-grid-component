@@ -2,19 +2,35 @@
   .container{
 align-items: stretch;
 text-align: left;
+font-size: 15px;
+
 
   }
-  .second-box,
-  .third-box{
-   font-size: 13px;
-   
-  }
-
-  a{
+   a{
     position: relative;
 		bottom: 2px;
 		left: 45%;
 		transform: translateX(-50%);
   }
+  .second-box{
+    height: 290px;
+  }
+  .third-box{
+    width: 300px;
+  }
+  footer{
+    justify-self: center;
+
+  padding: 15px;
+
+  }
+  .attribution{
+    font-size: 15px;
+   
+  }
+  }
+
  
-}
+ 
+
+
