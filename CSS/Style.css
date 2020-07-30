@@ -7,7 +7,7 @@ body{
   padding: 50px;
   margin: 100px;
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 20fr ;
   grid-template-areas: "primary primary"
                                      "second third"
@@ -27,7 +27,7 @@ body{
  
 }
 
-.container .primary-box h2{
+.container .primary-box h1{
   padding: 10px;
   color: var(--cyan);
   font-weight: 700;
@@ -64,7 +64,7 @@ body{
 }
 #pan{
   color: var(--light-gray);
-  padding-top: 12px;
+  padding-top: 10px;
 }
  #single{
    font-size: 35px;
