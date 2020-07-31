@@ -81,20 +81,28 @@ body{
   padding: 10px;
   border-radius: 5px;
   align-items: center;
-width: 100%;
+  width: 100%;
   max-width: 212px;
   height: 45px;
   margin: 15px;
   margin-top: 20px;
-  background-color: var(--bright-yellow);
+  background-color:  var(--bright-yellow);
   display: flex;
+
+}
+
+.container .second-box a:hover{
+  background-color: var(--green-yellow);
+  transition: 500ms;
 }
 
   #bottom{
  line-height: 38px;
 text-align: center;
 margin:60px;
+
   }
+
 #sign{
   flex: 1;
   color: var(--light-gray);
@@ -110,7 +118,7 @@ margin:60px;
   padding: 40px;
   align-items: stretch;
   grid-row: auto;
-  background-color: rgb(58, 202, 200);
+  background-color: var(--blue);
   grid-area: third;
 }
 
@@ -134,7 +142,6 @@ footer{
   background-color:var(--white);
   grid-area: footer;
  grid-row: auto;
-  
 }
 
 .attribution {
@@ -144,5 +151,5 @@ footer{
  }
    
 .attribution a { 
-  color: hsl(228, 45%, 44%);
+  color: var(--dark-blue);
  }
